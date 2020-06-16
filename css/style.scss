@@ -1,0 +1,15 @@
+header {
+	.container img {
+		width: 50px;
+	}
+}
+
+#trailer {
+	.video_wrapper {
+		/* 16:9, for an aspect ratio of 1:1 change to this value to 100% */
+		iframe {
+			width: 200% !important;
+			height: auto !important;
+		}
+	}
+}
