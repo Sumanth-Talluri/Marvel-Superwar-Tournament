@@ -15,25 +15,23 @@
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <img src="img/logo.png" alt="logo">
-            <span class="ml-3 text-xl">MARVEL SUPER WAR INDIAN LEAGUE</span>
+            <span class="ml-3 text-xl">MSW INDIAN LEAGUE</span>
           </a>
           <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a class="mr-5 hover:text-gray-900" href="index.html">HOME</a>
-          <a href="register.html">
-            <button class="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0">Enroll Now
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </button>
-          </a>
+            <a class="mr-5 hover:text-gray-900" href="#home">HOME</a>
+            <!-- <a class="mr-5 hover:text-gray-900" href="#teams">TEAMS</a> -->
+            <a class="mr-5 hover:text-gray-900" href="#schedule">SCHEDULE</a>
+            <!-- <a class="mr-5 hover:text-gray-900" href="#standings">STANDINGS</a> -->
+            <a class="mr-5 hover:text-gray-900" href="#standings">STATS</a>
+            </nav>
         </div>
       </header>
       <!-- End Navigation -->
       <!-- Start home page -->
-      <section class="text-gray-700 body-font">
+      <section class="text-gray-700 body-font" id="home">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img class="object-cover object-center rounded" alt="hero" src="img/homepic.png">
+            <img class="object-cover object-center rounded" alt="hero" src="/img/homepic.png">
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Marvel Super war Indian League
@@ -42,13 +40,14 @@
             <p class="mb-8 leading-relaxed">We are organizing a Marvel Super War Tournament this weekend. Hope we get maximum participation in this one as the winners will be rewarded star-credits. Even if you don't participate, don't worry you can always learn something from these tournament matches.
               This Tournament is our efforts to boost the competitive spirits!</p>
             <div class="flex justify-center">
-              <a href="#trailer"><button class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Watch Trailer</button></a>
+              <a href="#teams"><button class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Teams</button></a>
+              <a href="#standings"><button class="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Standings</button></a>
             </div>
           </div>
         </div>
       </section>
       <!-- End Home page -->
-
+      <hr>
       <!-- Start Trailer -->
       <section class="text-gray-700 body-font" id="trailer">
         <div class="container px-5 py-24 mx-auto flex flex-col">
@@ -61,12 +60,13 @@
         </div>
       </section>
       <!-- End Trailer -->
+      <hr>
       <!-- start prizes -->
-      <section class="text-gray-700 body-font">
+      <!-- <section class="text-gray-700 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
             <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">PRIZE</h1> 
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Register and Participate to win these exciting prizes.</p>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Register and Participate to win these exciting prizes.</p> 
           </div>
           <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
@@ -104,11 +104,723 @@
               <p class="leading-relaxed text-base">Overall MVP of the tournament will be
                 given a special prize by 1 of the in-game player.</p>
             </div>
+      </section> -->
+      <!-- End Prizes -->
+      <hr>
+        <!-- Start Teams -->
+      <section class="text-gray-700 body-font" id="teams">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">TEAMS</h1> 
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Below is the list of all the teams and it's players.</p>
           </div>
-          <a href="register.html"><button class="flex mx-auto mt-20 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Register</button></a>
+          <!-- group a -->
+          <h1 align="center">GROUP A</h1> <br>
+          <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+            <table class="table-auto w-full text-left whitespace-no-wrap">
+              <thead>
+                <tr>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200 rounded-tl rounded-bl">Team Name</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Team Captain</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200 text-center" colspan="4">Team Members</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Bichoo Gang (BG)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Mosin Nagant</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Annihilus</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Dudefella</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Howl_27</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">√Sparky</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Meta Humans (MH)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">SOMEONE AWESOME </td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">AsteroidxD </td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Zafar</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Sharjun</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Kingrishabh</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Hexagon Alpha (HA)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Shazil</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Tamilboy</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">gsurya</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">kiranbalaji95</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">DrHell</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Noobs Gone Pro (NGP)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Yolovader</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">꧁✿ᴄʜᴀɴᴅᴜ✿꧂</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">LuciFer007</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Barton007</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Avg Hrishikesh</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Marvelous</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">℃H∆KRM∆~ss</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Commander.Shepard</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">ROBELL</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">SUBHRANSU</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">ANIKET22</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">The Warriors (TW)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">KingKrrish </td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Avengershunter</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Krushang</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Dark - Pheonix</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Str@nger</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <br> <br> <br>
+          <!-- group b -->
+          <h1 align="center">GROUP B</h1> <br>
+          <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+            <table class="table-auto w-full text-left whitespace-no-wrap">
+              <thead>
+                <tr>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200 rounded-tl rounded-bl">Team Name</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Team Captain</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200 text-center" colspan="4">Team Members</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Avangels DG (A-DG)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Asura</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Ninja13</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">NanyBobby</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">TESSERACT</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Godfather </td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">ɖǟʀӄ ֆօʊʟʂ (DS)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">ɖǟʀӄ ռɛʍɛʂɨʂ</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">ɖǟʀӄ ɦǟɖɛֆ</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">ɖǟʀӄ ֆɦɨռɨɠǟɱɨ</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">ɖǟʀӄ ռɨɢɦȶʍǟʀɛ</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">ɖǟʀӄ ɮʟǟʐɛ</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Demolition Reapers (DR)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">2ez4Boss</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Dungstun</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Pranav1000</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Aviansh</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Fury1303</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">The Eternals (TE)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">BboyTrue1</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Deadwalker150</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Shankqwertt</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Rj_2001</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Tormentor</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Metro's Very Own (MVO)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">TheHornyPriest</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">D3th</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Synit3</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Inferno91</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Rishu</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Team Underscores (TU)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">PrinceSid</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">NishokStark</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Blánk</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">VALITH</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Arry_Black</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <br> <br> <br>
+          <!-- Group C -->
+          <h1 align="center">GROUP C</h1> <br>
+          <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+            <table class="table-auto w-full text-left whitespace-no-wrap">
+              <thead>
+                <tr>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200 rounded-tl rounded-bl">Team Name</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Team Captain</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200 text-center" colspan="4">Team Members</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">RAMPAGING SADISTIC SHINIGAMIS (RSS)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">MORIORINVICTUS</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Anomandaris</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">TheQuake</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Thorne</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Purav</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Erasable Ninjas (EN)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">BILLION</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">DabHarsh</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">batbatman</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">DollyKiller</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Sorachaos</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Hexagon Beta (HB)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">HEX#PonzVetri</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">DeekayNooB</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Spartacus</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Phenomenalone1</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Rothehitman</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">MeoW MeoW (MW-MW)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">WarPanda1411</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">super_sonic181</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">vishnurockz</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Arsann</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Wiesel</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">THE SPARTANS (TS)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">SPARTAN戈PB</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Thingismything</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">killerj</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Devilslayer001</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Tiger.King</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Noobmasters</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">FightTilluDie</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">AVENGER3876</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Abbhu</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">RageRiot</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">BlackDog_IN</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <br> <br> <br>
+          <!-- group D -->
+          <h1 align="center">GROUP D</h1> <br>
+          <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+            <table class="table-auto w-full text-left whitespace-no-wrap">
+              <thead>
+                <tr>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200 rounded-tl rounded-bl">Team Name</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Team Captain</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200 text-center" colspan="4">Player Names</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">MAXX FAMILY (MF)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">MaxxTINTIN00</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">MaxxCAT</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Deadshot2036</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Venkat nithin</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">SrqAngel</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Heroes Forever (HF)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Manalmon </td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Lordflex</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">KanuSatija</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Scimitar</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Thanos Killer</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">WITCH HUNTERS (WH)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">MrBUTTkicker</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">c.S.Break</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">AcidPhreak</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Bharathbilla</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">THOREN</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Apex_Predators (AP)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Darin_Vishal</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">ViscaBarca</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">PhaninderReddy</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Hiro04</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">deekk</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Saucy_Warrriors (SW)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">w3bhead</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">ArchishaD</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">kk_thor</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">UNTDxArrow</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Whïtê_Dëvîl</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Brute Force (BF)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">HeroFighterX</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">CRIMSON-EYE</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">SaMm</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Irate</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">UNISTAR</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- End group -->
         </div>
       </section>
-      <!-- End Prizes -->
+      <!-- End Teams -->
+      <hr>
+      <!-- start schedule -->
+      <section class="text-gray-700 body-font" id="schedule">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">SCHEDULE</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Here are the details of the next 9 mathces.</p>
+          </div>
+          <div class="flex flex-wrap">
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200">
+              <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">MATCH 1</h2>
+              <p class="leading-relaxed text-base mb-4">19 jun 2020 <br> <br> Bichoo Gang (BG) <b>VS</b> Hexagon Alpha (HA)</p>
+            </div>
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200">
+              <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">MATCH 2</h2>
+              <p class="leading-relaxed text-base mb-4">19 jun 2020 <br> <br> Meta Humans (MH) <b>VS</b> The Warriors (TW)</p>
+            </div>
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200">
+              <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">MATCH 3</h2>
+              <p class="leading-relaxed text-base mb-4">19 jun 2020 <br> <br> Noobs Gone Pro (NGP) <b>VS</b> Marvelous</p>
+            </div>
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200">
+              <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">MATCH 4</h2>
+              <p class="leading-relaxed text-base mb-4">19 jun 2020 <br> <br> Avangels DG (A-DG) <b>VS</b> Team Blank (TB)</p>
+            </div>
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200">
+              <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">MATCH 5</h2>
+              <p class="leading-relaxed text-base mb-4">19 jun 2020 <br> <br> Demolition Reapers (DR) <b>VS</b> Metro's Very Own (MVO)</p>
+            </div>
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200">
+              <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">MATCH 6</h2>
+              <p class="leading-relaxed text-base mb-4">19 jun 2020 <br> <br> Dark Souls (DS) <b>VS</b> The Eternals (TE)</p>
+            </div>
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200">
+              <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">MATCH 7</h2>
+              <p class="leading-relaxed text-base mb-4">19 jun 2020 <br> <br> RAMPAGING SADISTIC SHINIGAMIS (RSS) <b>VS</b> Noobmasters</p>
+            </div>
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200">
+              <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">MATCH 8</h2>
+              <p class="leading-relaxed text-base mb-4">19 jun 2020 <br> <br> Erasable Ninjas (EN) <b>VS</b> MeoW MeoW (MW-MW)</p>
+            </div>
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200">
+              <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">MATCH 9</h2>
+              <p class="leading-relaxed text-base mb-4">19 jun 2020 <br> <br> Hexagon Beta (HB)  <b>VS</b> THE SPARTANS (TS) </p>
+            </div>
+      </section>
+      <!-- end schedule -->
+      <hr>
+      <!-- Start Standing -->
+      <section class="text-gray-700 body-font" id="standings">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">STANDINGS</h1> 
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Marvel Super War Indian League Points Table.</p>
+          </div>
+          <h1 align="center">GROUP A</h1> <br> <br>
+          <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+            <table class="table-auto w-full text-center whitespace-no-wrap">
+              <thead>
+                <tr>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200 rounded-tl rounded-bl">Team Name</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Matches Played</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Wins</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Loses</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Kills</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Points</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Bichoo Gang (BG)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Meta Humans (MH)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Hexagon Alpha (HA)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Noobs Gone Pro (NGP)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Marvelous</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">The Warriors (TW)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <br> <br> <br>
+          <h1 align="center">GROUP B</h1> <br> <br>
+          <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+            <table class="table-auto w-full text-center whitespace-no-wrap">
+              <thead>
+                <tr>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200 rounded-tl rounded-bl">Team Name</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Matches Played</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Wins</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Loses</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Kills</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Points</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Avangels DG (A-DG)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Dark Souls (DS)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Demolition Reapers (DR)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Metro's Very Own (MVO)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Team Blank(TB)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">The Eternals (TE)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <br> <br> <br>
+          <h1 align="center">GROUP C</h1> <br> <br>
+          <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+            <table class="table-auto w-full text-center whitespace-no-wrap">
+              <thead>
+                <tr>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200 rounded-tl rounded-bl">Team Name</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Matches Played</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Wins</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Loses</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Kills</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Points</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">RAMPAGING SADISTIC SHINIGAMIS (RSS)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Erasable Ninjas (EN)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Hexagon Beta (HB)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">MeoW MeoW (MW-MW)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">THE SPARTANS (TS)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Noobmasters</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <br> <br> <br>
+          <h1 align="center">GROUP D</h1> <br> <br>
+          <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+            <table class="table-auto w-full text-center whitespace-no-wrap">
+              <thead>
+                <tr>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200 rounded-tl rounded-bl">Team Name</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Matches Played</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Wins</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Loses</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Kills</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Points</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">MAXX FAMILY (MF)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Heroes Forever (HF)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">WITCH HUNTERS (WH)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Apex_Predators (AP)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Saucy_Warrriors (SW)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Brute Force (BF)</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+      <!-- End Standing -->
+      <hr>
+      <!-- start stats -->
+
+      <section class="text-gray-700 body-font" id="standings">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">STATS</h1> 
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Below you can find the stats of the tournament.</p>
+          </div>
+    
+          <h1 align="center">MVP (Winning side)</h1> <br> <br>
+          <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+            <table class="table-auto w-full text-center whitespace-no-wrap">
+              <thead>
+                <tr>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200 rounded-tl rounded-bl">Rank</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Playername</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">count</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Matches played</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Average</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                <td class="border-t-2 border-gray-200 px-4 py-3">1</td>
+                <td class="border-t-2 border-gray-200 px-4 py-3">-</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0.0</td>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">2</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">-</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0.0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">3</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">-</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0.0</td>
+                </tr>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+          <br> <br> <br>
+          <h1 align="center">MVP (Losing side)</h1> <br> <br>
+          <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+            <table class="table-auto w-full text-center whitespace-no-wrap">
+              <thead>
+                <tr>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200 rounded-tl rounded-bl">Rank</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Playername</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">count</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Matches played</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Average</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">1</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">-</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0.0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">2</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">-</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0.0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">3</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">-</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0.0</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <br> <br> <br>
+          <h1 align="center">Most Kills</h1> <br> <br>
+          <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+            <table class="table-auto w-full text-center whitespace-no-wrap">
+              <thead>
+                <tr>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200 rounded-tl rounded-bl">Rank</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Playername</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Kills</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Matches played</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Average</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">1</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">-</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0.0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">2</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">-</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0.0</td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">3</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">-</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">0.0</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+      <!-- end stats -->
+      <hr>
       <!-- start footer -->
       <footer class="text-gray-700 body-font">
         <div class="container px-5 py-24 mx-auto">
