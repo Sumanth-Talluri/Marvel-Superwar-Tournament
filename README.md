@@ -6,5 +6,5 @@ This website is created for the MSW tournament which is organised by El Bruisers
 
 In this website you can checkout the Teams and the Players list as well as Stats and Standings of the Tournament.
 
-Link to the Website :
-https://sumanth-talluri.github.io/marvelsuperwartournament/
+:globe_with_meridians: **View Website [here](https://sumanth-talluri.github.io/marvelsuperwartournament/)**
+
